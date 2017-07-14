@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  14 JUL 2017 13:58
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  15 JUL 2017 01:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -160,7 +160,22 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
-(./syuroku_isoya.aux)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvipdfmx.def on input line 144.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
+))
+(./syuroku_isoya.aux
+
+LaTeX Warning: Label `eq:a1j' multiply defined.
+
+)
 \openout1 = `syuroku_isoya.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
@@ -184,8 +199,7 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
 LaTeX Font Info:    Try loading font information for U+msa on input line 44.
-
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 44.
@@ -197,36 +211,66 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
- [1
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+
+Overfull \hbox (1.49005pt too wide) in paragraph at lines 67--67
+[] 
+ []
+
+[1
 
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 84.
+] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 169.
 
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 84.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 169.
 
 
-LaTeX Warning: Reference `pic' on page 2 undefined on input line 88.
+LaTeX Warning: Reference `pic' on page 3 undefined on input line 173.
 
 
-LaTeX Warning: Reference `pic' on page 2 undefined on input line 111.
+LaTeX Warning: Reference `pic' on page 3 undefined on input line 196.
 
-[2] (./syuroku_isoya.aux)
+
+Package natbib Warning: Citation `ラベル1' on page 3 undefined on input line 20
+0.
+
+
+Package natbib Warning: Citation `ラベル2' on page 3 undefined on input line 20
+1.
+
+
+Package natbib Warning: Citation `ラベル3' on page 3 undefined on input line 20
+2.
+
+[3]
+
+Package natbib Warning: There were undefined citations.
+
+[4
+
+] (./syuroku_isoya.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 2296 strings out of 493693
- 27561 string characters out of 6149786
- 90408 words of memory out of 5000000
- 5818 multiletter control sequences out of 15000+600000
+ 2503 strings out of 493693
+ 31005 string characters out of 6149786
+ 104778 words of memory out of 5000000
+ 6017 multiletter control sequences out of 15000+600000
  27239 words of font info for 105 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,7n,28p,278b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,12n,28p,702b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on syuroku_isoya.dvi (2 pages, 8868 bytes).
+Output written on syuroku_isoya.dvi (4 pages, 23044 bytes).
