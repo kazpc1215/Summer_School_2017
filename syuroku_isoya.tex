@@ -131,7 +131,6 @@ $v^2/Q_{\rm D}^{\ast}$が質量に依存しないとき、すなわち破壊の�
  \alpha = \frac{11}{6}
 \end{align}
 である\citep{Tanaka1996}。
-
 一方、$v(m)^2/Q_{\rm D}^{\ast}(m) \propto m^p$のように質量に依存するとき、すなわち破壊のモデルが非自己相似の場合、$F(m)$が定常となる条件は
 \begin{align}
  \alpha = \frac{11 + 3p}{6 + 3p}
@@ -148,7 +147,7 @@ $v^2/Q_{\rm D}^{\ast}$が質量に依存しないとき、すなわち破壊の�
 \end{align}
 で与えられる。質量フラックスを計算するためには、トレーサーの面密度と衝突速度を求める必要がある。そこで、まずトレーサー$i$の位置を2次元極座標($r_i,\theta_i$)に射影し、動径方向に$r_i \pm \delta r$、方位角方向に$\theta_i \pm \delta \theta$の広がりをもった扇形領域$i$を形成する。この領域$i$に入っている他のトレーサーを$j$とし、$j$の総数を$N$とする。面密度は$i$自身と$j$の質量の総和を領域$i$の面積で割り、
 \begin{align}
- \Sigma_i = \frac{m_i + \sum_j m_j}{4 r_i \delta r \delta \theta}
+ \Sigma_i = \frac{m_i + \sum_{j}^{N} m_j}{4 r_i \delta r \delta \theta}
 \end{align}
 のように計算する。次にトレーサー$i$と$j$の相対速度は、ランダム速度$\sqrt{e_{i,j}^2 + i_{i,j}^2} v_{{\rm K},i}$で近似する。ここで、$e_{i,j}$と$i_{i,j}$はそれぞれ相対離心率と相対軌道傾斜角を表し、
 \begin{align}
@@ -157,22 +156,40 @@ $v^2/Q_{\rm D}^{\ast}$が質量に依存しないとき、すなわち破壊の�
 \end{align}
 のように定義される。ここで、$\varpi$は近点経度、$\Omega$は昇交点経度である。そして$j$について平均をとり、平均相対速度を衝突速度だとみなす。
 \begin{align}
- v_i = \frac{\sum_j \sqrt{e_{i,j}^2+i_{i,j}^2} v_{{\rm K},i}}{N}
+ v_i = \frac{\sum_{j}^{N} \sqrt{e_{i,j}^2+i_{i,j}^2} v_{{\rm K},i}}{N}
 \end{align}
 以上より質量フラックスを各トレーサーごとに求めることができる。
 
 統計的手法のタイムステップ$\Delta t_{{\rm frag},i}$は質量減少タイムスケール$\tau_{{\rm dep},i}$を基準にして、$\Delta t_{{\rm frag},i} = \xi \tau_{{\rm dep},i}$とする。そしてトレーサー$i$の質量変化は、
 \begin{align}
- m_i(t + \xi \tau_{{\rm dep},i}) = \frac{m_i(t)}{1 + \xi}
+ m_i(t_{{\rm frag},i} + \Delta t_{{\rm frag},i}) = \frac{m_i(t_{{\rm frag},i})}{1 + \xi}
 \end{align}
 のように計算する。$N$体計算では独立タイムステップを用いているため、トレーサー$i$の$N$体計算の時間$t_i$が統計的手法の時間$t_{{\rm frag},i}$を上回ったときにトレーサー$i$の質量を減少させ、$t_{{\rm frag},i} \to t_{{\rm frag},i} + \Delta t_{{\rm frag},i}$に更新する。
 
 
 
 
-\section{Results}
+\section{Numerical Test}
 本文を記入してください。本文を記入してください。本文を記入してください。本文を記入してください。本文を記入してください。本文を記入してください。
 
+\subsection{$N$体計算のテスト}
+
+小さい微惑星と大きい微惑星が混在するときの離心率$\cdot$軌道傾斜角の二乗平均平方根の時間進化．太陽から $1 {\rm AU}$ の位置に質量 $1 \times 10^{24} {\rm g}$ の微惑星を $800$ 個，$4 \times 10^{24} {\rm g}$ の微惑星を $200$ 個配置し，$1000$ 年分計算を6回行った．ここで，初期の微惑星の面密度が $10 {\rm g/cm^2}$ となるように，$0.943 - 1.057 {\rm AU}$ に一様に配置した．また，初期の離心率$\cdot$軌道傾斜角はレイリー分布に従い，それぞれの二乗平均平方根は $e_{\rm RMS} = 1 \times 10^{-4}, i_{\rm RMS} = 5 \times 10^{-5}$ とした．Otsuki et al.(2002)のFig.4bとの比較．
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=8cm]{Ohtsuki_figb_and_Nbodytest_6run.pdf}
+ \caption{\label{}}
+\end{figure}
+
+\subsection{統計的手法のテスト}
+
+統計的手法を用いたときの微惑星総質量の時間進化．扇形領域の大きさを決める $\Delta r$ を，$0.1 {\rm AU}$ で固定している．太陽から $0.95 - 1.05 {\rm AU}$ の位置に等質量のトレーサーを $990$ 個一様に配置し，$10^4$ 年分計算を行った．ここで，トレーサー同士の相互重力は計算しておらず，トレーサーの軌道要素は変化していない．すべてのトレーサーは初期に離心率 $e = 10^{-3}$，軌道傾斜角 $i = 5 \times 10^{-4}$ をもち，その他の角変数はランダムで与えた．質量減少タイムスケール $\tau$ が $10$ 年となるように，初期の総質量を $3.51 \times 10^{30} {\rm g}$ とし，解析解の表式\cite{3}と比較した．質量減少タイムスケール $\tau$ に対して、実際の統計的計算ではタイムステップを $\xi \tau$ としている．
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=8cm]{MassDepletion.pdf}
+ \caption{\label{}}
+\end{figure}
 
 \section{Discussion}
 本文を記入してください。本文を記入してください。本文を記入してください。本文を記入してください。本文を記入してください。本文を記入してください。

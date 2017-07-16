@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  15 JUL 2017 18:03
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  16 JUL 2017 19:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -175,6 +175,9 @@ File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 
 LaTeX Warning: Label `eq:a1j' multiply defined.
 
+
+LaTeX Warning: Label `' multiply defined.
+
 )
 \openout1 = `syuroku_isoya.aux'.
 
@@ -223,20 +226,41 @@ Overfull \hbox (1.49005pt too wide) in paragraph at lines 67--67
 [1
 
 
-] [2] [3] [4
+] [2]
+File: Ohtsuki_figb_and_Nbodytest_6run.pdf Graphic file (type pdf)
+ <Ohtsuki_figb_and_Nbodytest_6run.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 180--181
+ [][] 
+ []
 
-] (./syuroku_isoya.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package natbib Warning: Citation `3' on page 3 undefined on input line 186.
+
+[3]
+File: MassDepletion.pdf Graphic file (type pdf)
+ <MassDepletion.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 190--191
+ [][] 
+ []
+
+
+Package natbib Warning: There were undefined citations.
+
+[4] (./syuroku_isoya.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2477 strings out of 493693
- 30616 string characters out of 6149786
+ 2490 strings out of 493693
+ 30903 string characters out of 6149786
  104778 words of memory out of 5000000
- 5995 multiletter control sequences out of 15000+600000
+ 6002 multiletter control sequences out of 15000+600000
  27071 words of font info for 104 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,12n,28p,704b,254s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,12n,28p,712b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on syuroku_isoya.dvi (4 pages, 25296 bytes).
+Output written on syuroku_isoya.dvi (4 pages, 28288 bytes).
