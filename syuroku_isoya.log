@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  16 JUL 2017 19:08
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  17 JUL 2017 17:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -173,9 +173,6 @@ File: dvipsnam.def 2015/12/30 v3.0k Driver-dependent file (DPC,SPQR)
 ))
 (./syuroku_isoya.aux
 
-LaTeX Warning: Label `eq:a1j' multiply defined.
-
-
 LaTeX Warning: Label `' multiply defined.
 
 )
@@ -198,69 +195,61 @@ LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 39.
+LaTeX Font Info:    Try loading font information for U+msa on input line 39.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 39.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 44.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 44.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 39.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 54.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 61.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 54.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 61.
+ [1
 
-Overfull \hbox (1.49005pt too wide) in paragraph at lines 67--67
+
+]
+Overfull \hbox (1.49005pt too wide) in paragraph at lines 74--74
 [] 
  []
 
-[1
-
-
-] [2]
+[2] [3]
 File: Ohtsuki_figb_and_Nbodytest_6run.pdf Graphic file (type pdf)
  <Ohtsuki_figb_and_Nbodytest_6run.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 180--181
+Overfull \hbox (5.0pt too wide) in paragraph at lines 187--188
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package natbib Warning: Citation `3' on page 3 undefined on input line 186.
-
-[3]
 File: MassDepletion.pdf Graphic file (type pdf)
- <MassDepletion.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 190--191
+<MassDepletion.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 197--198
  [][] 
  []
 
+[4] [5
 
-Package natbib Warning: There were undefined citations.
-
-[4] (./syuroku_isoya.aux)
+] (./syuroku_isoya.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2490 strings out of 493693
- 30903 string characters out of 6149786
- 104778 words of memory out of 5000000
- 6002 multiletter control sequences out of 15000+600000
+ 2503 strings out of 493693
+ 31162 string characters out of 6149786
+ 106778 words of memory out of 5000000
+ 6015 multiletter control sequences out of 15000+600000
  27071 words of font info for 104 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,12n,28p,712b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,12n,28p,725b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on syuroku_isoya.dvi (4 pages, 28288 bytes).
+Output written on syuroku_isoya.dvi (5 pages, 31812 bytes).
