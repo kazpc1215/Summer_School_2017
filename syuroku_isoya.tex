@@ -26,6 +26,7 @@ $N$体計算$\cdot$統計的手法のハイブリッドコードの開発}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\usepackage{amsmath}	% required for `\align' (yatex added)
 \begin{document}
 %\setlength{\baselineskip}{11pt}      % 行間の直接指定
 \setstretch{0.9} % ページ全体の行間を設定
@@ -198,18 +199,27 @@ $0.95 - 1.05 {\rm AU}$に等質量のトレーサーを$990$個一様に配置�
 \end{figure}
 
 \section{結果と今後の展望}
-地球型惑星と原始惑星の巨大衝突破壊によって破片が放出される様子を模擬し、惑星と破片の軌道進化と破片の質量進化を計算した。初期の破片の総質量は$0.1 {\rm M_{\oplus}}$とし、惑星の質量は$1 {\rm M_{\oplus}}$とした。$(x,y) = (1 {\rm AU},0 {\rm AU})$の位置で衝突が起こり、惑星から見て中心星と反対方向(L2側)に惑星表面からコーン状に破片が放出し、その速度は惑星から距離が離れるにつれて速くなると仮定した（脱出速度$v_{\rm esc}$の$1.0-1.1$倍）。破片を等質量のトレーサー1000個で代表させ、惑星とトレーサーの重力相互作用、トレーサー同士の衝突破壊を、ハイブリッドコードを用いて1000年分計算を行った(図\ref{fig:L2cone})。
+地球型惑星と原始惑星の巨大衝突破壊によって破片が放出される様子を模擬し、惑星と破片の軌道進化と破片の質量進化を計算した。初期の破片の総質量は$0.1 {\rm M_{\oplus}}$とし、惑星の質量は$1 {\rm M_{\oplus}}$とした。$(x,y) = (1 {\rm AU},0 {\rm AU})$の位置で衝突が起こり、惑星から見て中心星と反対方向(L2側)に惑星表面からコーン状に破片が放出し、その速度は惑星から距離が離れるにつれて速くなると仮定した（脱出速度$v_{\rm esc}$の$1.0-1.1$倍）。破片を等質量のトレーサー1000個で代表させ、中心星周りのケプラー運動、惑星とトレーサーの重力相互作用、トレーサー同士の衝突破壊を、ハイブリッドコードを用いて1000年分計算を行った(図\ref{fig:L2cone})。円盤の内側にいくほど、相対速度は速くなり、また面密度が大きくなるため、トレーサー内の破片が衝突破壊によって減少し質量が減っている様子を見ることができる。
+衝突カスケードにおいて破片のサイズ分布が$n(D) \propto D^{-7/2}$のとき、fractional luminosity(中心星とデブリ円盤の光度比)は
+\begin{align}
+ f = 0.37 \left(\frac{M_{\rm tot}}{\rm M_{\oplus}}\right) \left(\frac{r}{\rm AU}\right)^{-2} \left(\frac{D_{\rm min}}{\rm \mu m}\right)^{-\frac{1}{2}} \left(\frac{D_{\rm max}}{\rm km}\right)^{-\frac{1}{2}}
+\end{align}
+で表される\citep{Jackson2012}。これより、円盤の質量と光度は比例関係にあり、図\ref{fig:L2cone}の質量分布を明るさの空間分布として見ることもできる。
+
+今後はこのハイブリッドコードを用いて、複数の原始惑星が存在し、巨大衝突が起こるたびに破片を放出するような計算をする長時間行うことで、暖かいデブリ円盤の進化について詳しく調べたい。
+
 
 %\begin{figure}[h]
 % \centering
-% \includegraphics[width=8cm]{Ejection_cone30equidistant_v1011curl_3D.pdf}
-% \caption{惑星半径$R_{\rm p} = 4 \times 10^{-5} {\rm AU}$の$1.0-2.0$倍の距離に角度$30^{\circ}$のコーンに沿って等間隔にトレーサーを置き、速度は脱出速度$v_{\rm esc}$の$1.0-1.1$倍で与えた。\label{fig:cone3D}}
+% \includegraphics[width=5cm]{Ejection_cone30equidistant_v1011curl_3D.pdf}
+% \caption{惑星半径$R_{\rm p} = 4 \times 10^{-5} {\rm AU}$の$1.0-2.0$倍の距離に角度$30^{\circ}$のコーンに沿って等間隔にトレーサーを置き、速度は脱出
+%速度$v_{\rm esc}$の$1.0-1.1$倍で与えた。\label{fig:cone3D}}
 %\end{figure}
 
 \begin{figure}[h]
  \centering
  \includegraphics[width=8cm]{L2cone30equidistant_v1011curl_OnlyPlanet_1000yr.pdf}
- \caption{破片の軌道と質量の時間変化。初期のすべてのトレーサーの質量は${10^{-4}\rm M_{\oplus}}$である。\label{fig:L2cone}}
+ \caption{破片の軌道と質量の時間変化。トレーサーの位置を$x,y$平面に射影し、各点の色で質量を表した。すべてのトレーサーの初期質量は${10^{-4}\rm M_{\oplus}}$である。\label{fig:L2cone}}
 \end{figure}
 
 
@@ -229,6 +239,8 @@ $0.95 - 1.05 {\rm AU}$に等質量のトレーサーを$990$個一様に配置�
  Aarseth, S. J. 1985, in Multiple Time Scales, ed. J. U. Brackbill and B. I. Cohen (New York:Academic), 377
  \bibitem[Genda et al.(2015)]{Genda2015}
  Genda, H., Kobayashi, H., \& Kokubo, E. 2015, ApJ, 810, 136
+ \bibitem[Jackson \& Wyatt(2012)]{Jackson2012}
+ Jackson, A. P. \& Wyatt, M. C. 2012, MNRAS, 425, 657
  \bibitem[Kobayashi \& Tanaka(2010)]{Kobayashi2010}
  Kobayashi, H., \& Tanaka, H. 2010, Icarus, 206, 735
  %\bibitem[Kokubo et al.(2006)]{Kokubo2006}
@@ -249,6 +261,7 @@ $0.95 - 1.05 {\rm AU}$に等質量のトレーサーを$990$個一様に配置�
  Ohtsuki, K., Stewart, G. R., \& Ida, S. 2002, Icarus, 155, 436
  \bibitem[Tanaka et al.(1996)]{Tanaka1996}
  Tanaka, H., Inaba, S., Nakazawa, K. 1996, Icarus, 123, 450
+ 
 \end{thebibliography}
 
 
