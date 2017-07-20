@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  20 JUL 2017 23:26
+This is e-pTeX, Version 3.14159265-p3.7-160201-2.6 (utf8.euc) (TeX Live 2016) (preloaded format=platex 2016.11.21)  21 JUL 2017 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -194,55 +194,57 @@ LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 31.
 LaTeX Font Info:    ... okay on input line 31.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
-LaTeX Font Info:    Try loading font information for U+msa on input line 45.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 50.
+LaTeX Font Info:    Try loading font information for U+msa on input line 50.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 45.
+LaTeX Font Info:    Try loading font information for U+msb on input line 50.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 45.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 50.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 45.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 50.
  [1
 
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 83.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 77.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 83.
 
-Overfull \hbox (1.49005pt too wide) in paragraph at lines 90--90
+Overfull \hbox (1.49005pt too wide) in paragraph at lines 96--96
 [] 
  []
 
-[2]
-Overfull \hbox (3.40611pt too wide) in paragraph at lines 210--210
+[2] [3]
+Overfull \hbox (3.40611pt too wide) in paragraph at lines 216--216
 [] 
  []
 
-[3]
 File: L2cone30equidistant_v1011curl_OnlyPlanet_1000yr.pdf Graphic file (type pd
 f)
- <L2cone30equidistant_v1011curl_OnlyPlanet_1000yr.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 225--228
+<L2cone30equidistant_v1011curl_OnlyPlanet_1000yr.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 231--234
  [][] 
  []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] (./star_a16.aux) ) 
 Here is how much of TeX's memory you used:
  2533 strings out of 493693
  31703 string characters out of 6149786
- 100778 words of memory out of 5000000
+ 101778 words of memory out of 5000000
  6043 multiletter control sequences out of 15000+600000
  27071 words of font info for 104 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 34i,12n,28p,807b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,12n,28p,868b,281s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on star_a16.dvi (4 pages, 29156 bytes).
+Output written on star_a16.dvi (4 pages, 32288 bytes).
